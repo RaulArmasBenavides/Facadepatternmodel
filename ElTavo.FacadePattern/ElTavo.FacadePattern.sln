@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.Nomina", "ElTavo.FacadePattern.Nomina\ElTavo.FacadePattern.Nomina.csproj", "{5B92D5EC-5323-4643-81BF-0D4D090C48F4}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.ClienteFacturacion", "ElTavo.FacadePattern.ClienteFacturacion\ElTavo.FacadePattern.ClienteFacturacion.csproj", "{81DDD0CF-517B-42B4-88D6-FB2EDFA98677}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.Dominio", "ElTavo.FacadePattern.Dominio\ElTavo.FacadePattern.Dominio.csproj", "{5F234766-2F9C-47B6-BBE8-D91207EC4A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Bridge", "Pattern.Bridge\Pattern.Bridge.csproj", "{C0C27242-6633-43B8-B9F2-5D308F1285E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Strategy", "Pattern.Strategy\Pattern.Strategy.csproj", "{13D0D0F9-E22A-4E79-BBA8-A6F9AAF46A77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +49,19 @@ Global
 		{5F234766-2F9C-47B6-BBE8-D91207EC4A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F234766-2F9C-47B6-BBE8-D91207EC4A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F234766-2F9C-47B6-BBE8-D91207EC4A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C27242-6633-43B8-B9F2-5D308F1285E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C27242-6633-43B8-B9F2-5D308F1285E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C27242-6633-43B8-B9F2-5D308F1285E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C27242-6633-43B8-B9F2-5D308F1285E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D0D0F9-E22A-4E79-BBA8-A6F9AAF46A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D0D0F9-E22A-4E79-BBA8-A6F9AAF46A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D0D0F9-E22A-4E79-BBA8-A6F9AAF46A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D0D0F9-E22A-4E79-BBA8-A6F9AAF46A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC2B64A3-A27B-4F61-89F8-53FE02285900}
 	EndGlobalSection
 EndGlobal
