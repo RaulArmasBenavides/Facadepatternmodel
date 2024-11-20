@@ -1,5 +1,5 @@
 
-# ElTavo.Patterns
+# Patterns
 
 This repository is a collection of design pattern implementations in **C#**, organized into multiple projects. It serves as a reference for practicing and understanding different design patterns, following clean and modular design principles.
 
@@ -12,11 +12,11 @@ Each project in this solution demonstrates a specific design pattern or a group 
 ## Current Projects
 
 ### **Structural Patterns**
-- **ElTavo.FacadePattern.Beneficios**: Demonstrates the Facade Pattern for managing employee benefits.
-- **ElTavo.FacadePattern.ClienteFacturacion**: Implements the Facade Pattern for customer invoicing.
-- **ElTavo.FacadePattern.Incentivos**: Illustrates incentives management with the Facade Pattern.
-- **ElTavo.FacadePattern.Nomina**: A focused example on payroll handling using the Facade Pattern.
-- **ElTavo.FacadePattern.Fachada**: Centralized facade logic combining various submodules for simplicity.
+- **FacadePattern.Beneficios**: Demonstrates the Facade Pattern for managing employee benefits.
+- **FacadePattern.ClienteFacturacion**: Implements the Facade Pattern for customer invoicing.
+- **FacadePattern.Incentivos**: Illustrates incentives management with the Facade Pattern.
+- **FacadePattern.Nomina**: A focused example on payroll handling using the Facade Pattern.
+- **FacadePattern.Fachada**: Centralized facade logic combining various submodules for simplicity.
 
 ### **Behavioral Patterns**
 - **Pattern.State**: Implements the State Pattern for managing object behavior based on its state.
@@ -33,7 +33,7 @@ Each project in this solution demonstrates a specific design pattern or a group 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository/ElTavo.Patterns.git
+   git clone https://github.com/your-repository/Patterns.git
    ```
 
 2. Open the solution in **Visual Studio**:
@@ -77,6 +77,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Author
 
-Developed with ❤️ by [Your Name].
+Developed with ❤️ by Raúl Armas.
 
 Feel free to reach out for questions, suggestions, or collaboration opportunities!
