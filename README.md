@@ -1,100 +1,71 @@
 
-# Quadratic Equation Solver with Strategy Pattern
+# ElTavo.Patterns
 
-This project demonstrates the implementation of the **Strategy Design Pattern** for solving quadratic equations. The focus is on showcasing how different strategies can be applied for discriminant calculation, making this an excellent example of **structural design patterns**.
+This repository is a collection of design pattern implementations in **C#**, organized into multiple projects. It serves as a reference for practicing and understanding different design patterns, following clean and modular design principles.
 
 ## Overview
 
-A quadratic equation is a second-order polynomial equation in a single variable \( ax^2 + bx + c = 0 \). The solutions are computed using the quadratic formula:
+Each project in this solution demonstrates a specific design pattern or a group of related concepts. The goal is to provide practical and well-structured examples of how to implement these patterns in real-world scenarios.
 
-\[
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-\]
+---
 
-Here, the discriminant \( b^2 - 4ac \) plays a critical role in determining the nature of the roots.
+## Current Projects
 
-### Strategies Implemented
+### **Structural Patterns**
+- **ElTavo.FacadePattern.Beneficios**: Demonstrates the Facade Pattern for managing employee benefits.
+- **ElTavo.FacadePattern.ClienteFacturacion**: Implements the Facade Pattern for customer invoicing.
+- **ElTavo.FacadePattern.Incentivos**: Illustrates incentives management with the Facade Pattern.
+- **ElTavo.FacadePattern.Nomina**: A focused example on payroll handling using the Facade Pattern.
+- **ElTavo.FacadePattern.Fachada**: Centralized facade logic combining various submodules for simplicity.
 
-1. **Ordinary Discriminant Strategy**:
-   - Computes the discriminant as-is, even if it is negative.
-   - This is suitable for applications where solutions as **complex numbers** are acceptable.
+### **Behavioral Patterns**
+- **Pattern.State**: Implements the State Pattern for managing object behavior based on its state.
 
-2. **Real Discriminant Strategy**:
-   - Returns `NaN` (Not a Number) if the discriminant is negative.
-   - Ensures that only real roots are considered valid.
+### **Structural Patterns (Bridge)** 
+- **Pattern.Bridge**: Demonstrates the Bridge Pattern to decouple an abstraction from its implementation.
 
-### Quadratic Equation Solver
-The solver is implemented to work with any discriminant strategy, allowing flexible usage depending on the requirements.
+### **Behavioral Patterns (Strategy)** 
+- **Pattern.Strategy**: An implementation of the Strategy Pattern for interchangeable algorithms.
+
+---
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repository/ElTavo.Patterns.git
+   ```
+
+2. Open the solution in **Visual Studio**:
+   - Ensure that all dependencies are restored.
+
+3. Build the solution and run individual projects to explore the implementations.
 
 ---
 
 ## Features
 
-- **Extensible Design**:
-  - Easy to add more discriminant calculation strategies.
-- **Real and Complex Number Support**:
-  - Uses .NET's `System.Numerics.Complex` to handle complex roots.
-- **Educational Value**:
-  - Demonstrates a practical use of the Strategy Pattern in C#.
-
----
-
-## Requirements
-
-- **.NET SDK** (version 5.0 or higher)
-- A text editor or IDE, such as **Visual Studio** or **Visual Studio Code**.
-
----
-
-## How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-repository/quadratic-solver.git
-   ```
-
-2. Navigate to the project folder:
-   ```bash
-   cd quadratic-solver
-   ```
-
-3. Build and run the application:
-   ```bash
-   dotnet build
-   dotnet run
-   ```
-
----
-
-## Code Structure
-
-- **`IDiscriminantStrategy`**: Defines the interface for different discriminant strategies.
-- **`OrdinaryDiscriminantStrategy`**: A strategy that computes the discriminant directly.
-- **`RealDiscriminantStrategy`**: A strategy that ensures only real discriminants are returned.
-- **`QuadraticEquationSolver`**: The main class for solving quadratic equations.
-
----
-
-## Example Output
-
-For a quadratic equation \( x^2 + x + 1 = 0 \), the program outputs:
-
-- **Ordinary Strategy**:
-  - Root 1: -0.5 + 0.866i
-  - Root 2: -0.5 - 0.866i
-- **Real Strategy**:
-  - Root 1: NaN
-  - Root 2: NaN
+- **Modular Design**: Each pattern is isolated in its own project, making it easy to navigate and expand.
+- **Realistic Scenarios**: Examples are designed to reflect real-world use cases.
+- **Scalable Structure**: Easily add new design pattern implementations or extend existing ones.
 
 ---
 
 ## Purpose
 
-This project is designed to help developers and students practice:
+This repository is meant to:
 
-- **Structural Design Patterns**, specifically the **Strategy Pattern**.
-- Writing modular and reusable code.
-- Solving mathematical equations programmatically.
+- Provide a practical guide for developers and students learning design patterns.
+- Act as a reference for incorporating design patterns into professional projects.
+- Showcase clean, modular, and reusable code in **C#**.
+
+---
+
+## How to Contribute
+
+1. Fork the repository.
+2. Add your design pattern implementation in a new project folder.
+3. Submit a pull request with a description of your changes.
 
 ---
 
@@ -107,3 +78,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Author
 
 Developed with ❤️ by [Your Name].
+
+Feel free to reach out for questions, suggestions, or collaboration opportunities!
