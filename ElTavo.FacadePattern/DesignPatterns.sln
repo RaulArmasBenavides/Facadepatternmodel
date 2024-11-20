@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.Nomina", "ElTavo.FacadePattern.Nomina\ElTavo.FacadePattern.Nomina.csproj", "{5B92D5EC-5323-4643-81BF-0D4D090C48F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern.Nomina", "ElTavo.FacadePattern.Nomina\FacadePattern.Nomina.csproj", "{5B92D5EC-5323-4643-81BF-0D4D090C48F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.Incentivos", "ElTavo.FacadePattern.Incentivos\ElTavo.FacadePattern.Incentivos.csproj", "{755E3908-C48A-4C62-A200-98EBCAE543C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern.Incentivos", "ElTavo.FacadePattern.Incentivos\FacadePattern.Incentivos.csproj", "{755E3908-C48A-4C62-A200-98EBCAE543C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.Beneficios", "ElTavo.FacadePattern.Beneficios\ElTavo.FacadePattern.Beneficios.csproj", "{E85267EC-79F5-41EB-8CB4-9585B284C267}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern.Beneficios", "ElTavo.FacadePattern.Beneficios\FacadePattern.Beneficios.csproj", "{E85267EC-79F5-41EB-8CB4-9585B284C267}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.Fachada", "ElTavo.FacadePattern.Fachada\ElTavo.FacadePattern.Fachada.csproj", "{719B04C8-0053-4D32-B2C5-AF0ACBFA969B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern.Fachada", "ElTavo.FacadePattern.Fachada\FacadePattern.Fachada.csproj", "{719B04C8-0053-4D32-B2C5-AF0ACBFA969B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.ClienteFacturacion", "ElTavo.FacadePattern.ClienteFacturacion\ElTavo.FacadePattern.ClienteFacturacion.csproj", "{81DDD0CF-517B-42B4-88D6-FB2EDFA98677}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern.ClienteFacturacion", "ElTavo.FacadePattern.ClienteFacturacion\FacadePattern.ClienteFacturacion.csproj", "{81DDD0CF-517B-42B4-88D6-FB2EDFA98677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTavo.FacadePattern.Dominio", "ElTavo.FacadePattern.Dominio\ElTavo.FacadePattern.Dominio.csproj", "{5F234766-2F9C-47B6-BBE8-D91207EC4A29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern.Dominio", "ElTavo.FacadePattern.Dominio\FacadePattern.Dominio.csproj", "{5F234766-2F9C-47B6-BBE8-D91207EC4A29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Bridge", "Pattern.Bridge\Pattern.Bridge.csproj", "{C0C27242-6633-43B8-B9F2-5D308F1285E6}"
 EndProject

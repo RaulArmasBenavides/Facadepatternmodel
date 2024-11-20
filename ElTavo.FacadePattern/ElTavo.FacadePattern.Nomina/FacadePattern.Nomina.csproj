@@ -7,8 +7,8 @@
     <ProjectGuid>{5B92D5EC-5323-4643-81BF-0D4D090C48F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ElTavo.FacadePattern.Nomina</RootNamespace>
-    <AssemblyName>ElTavo.FacadePattern.Nomina</AssemblyName>
+    <RootNamespace>FacadePattern.Nomina</RootNamespace>
+    <AssemblyName>FacadePattern.Nomina</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ElTavo.FacadePattern.Dominio\ElTavo.FacadePattern.Dominio.csproj">
+    <ProjectReference Include="..\ElTavo.FacadePattern.Dominio\FacadePattern.Dominio.csproj">
       <Project>{5F234766-2F9C-47B6-BBE8-D91207EC4A29}</Project>
-      <Name>ElTavo.FacadePattern.Dominio</Name>
+      <Name>FacadePattern.Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

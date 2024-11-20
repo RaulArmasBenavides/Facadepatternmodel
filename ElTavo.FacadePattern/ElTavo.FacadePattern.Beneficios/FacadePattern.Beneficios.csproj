@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{755E3908-C48A-4C62-A200-98EBCAE543C7}</ProjectGuid>
+    <ProjectGuid>{E85267EC-79F5-41EB-8CB4-9585B284C267}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ElTavo.FacadePattern.Incentivos</RootNamespace>
-    <AssemblyName>ElTavo.FacadePattern.Incentivos</AssemblyName>
+    <RootNamespace>ElTavo.FacadePattern.Beneficios</RootNamespace>
+    <AssemblyName>ElTavo.FacadePattern.Beneficios</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -40,13 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Incentivo.cs" />
+    <Compile Include="Beneficio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ElTavo.FacadePattern.Dominio\ElTavo.FacadePattern.Dominio.csproj">
+    <ProjectReference Include="..\ElTavo.FacadePattern.Dominio\FacadePattern.Dominio.csproj">
       <Project>{5f234766-2f9c-47b6-bbe8-d91207ec4a29}</Project>
-      <Name>ElTavo.FacadePattern.Dominio</Name>
+      <Name>FacadePattern.Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
