@@ -53,11 +53,11 @@
       <Project>{5f234766-2f9c-47b6-bbe8-d91207ec4a29}</Project>
       <Name>FacadePattern.Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ElTavo.FacadePattern.Incentivos\FacadePattern.Incentivos.csproj">
+    <ProjectReference Include="..\FacadePattern.Incentivos\FacadePattern.Incentivos.csproj">
       <Project>{755e3908-c48a-4c62-a200-98ebcae543c7}</Project>
       <Name>FacadePattern.Incentivos</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ElTavo.FacadePattern.Nomina\FacadePattern.Nomina.csproj">
+    <ProjectReference Include="..\FacadePattern.Nomina\FacadePattern.Nomina.csproj">
       <Project>{5b92d5ec-5323-4643-81bf-0d4d090c48f4}</Project>
       <Name>FacadePattern.Nomina</Name>
     </ProjectReference>

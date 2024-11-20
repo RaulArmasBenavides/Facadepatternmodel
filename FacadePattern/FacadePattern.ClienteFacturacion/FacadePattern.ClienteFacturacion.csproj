@@ -7,8 +7,8 @@
     <ProjectGuid>{81DDD0CF-517B-42B4-88D6-FB2EDFA98677}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ElTavo.FacadePattern.ClienteFacturacion</RootNamespace>
-    <AssemblyName>ElTavo.FacadePattern.ClienteFacturacion</AssemblyName>
+    <RootNamespace>FacadePattern.ClienteFacturacion</RootNamespace>
+    <AssemblyName>FacadePattern.ClienteFacturacion</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ElTavo.FacadePattern.ClienteFacturacion.Program</StartupObject>
+    <StartupObject>FacadePattern.ClienteFacturacion.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -60,7 +60,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ElTavo.FacadePattern.Fachada\FacadePattern.Fachada.csproj">
+    <ProjectReference Include="..\FacadePattern.Fachada\FacadePattern.Fachada.csproj">
       <Project>{719b04c8-0053-4d32-b2c5-af0acbfa969b}</Project>
       <Name>FacadePattern.Fachada</Name>
     </ProjectReference>

@@ -40,12 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Beneficio.cs" />
+    <Compile Include="BeneficioBo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ElTavo.FacadePattern.Dominio\FacadePattern.Dominio.csproj">
-      <Project>{5f234766-2f9c-47b6-bbe8-d91207ec4a29}</Project>
+    <ProjectReference Include="..\FacadePattern.Dominio\FacadePattern.Dominio.csproj">
+      <Project>{5F234766-2F9C-47B6-BBE8-D91207EC4A29}</Project>
       <Name>FacadePattern.Dominio</Name>
     </ProjectReference>
   </ItemGroup>

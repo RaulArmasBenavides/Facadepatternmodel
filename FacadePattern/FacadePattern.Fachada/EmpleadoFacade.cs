@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using FacadePattern.Beneficios;
-
+using FacadePattern.Nomina;
+using FacadePattern.Incentivo;
 using domino = FacadePattern.Dominio;
 
 namespace FacadePattern.Fachada
@@ -9,9 +10,9 @@ namespace FacadePattern.Fachada
     {
         public double ObtenerTotalIngresosEmpleado(string idEmpleado)
         {
-            var nomina = new Nomina.Nomina();
-            var beneficio = new Beneficio();
-            var incentivo = new Incentivo();
+            var nomina = new NominaBo();
+            var beneficio = new BeneficioBo();
+            var incentivo = new IncentivoBo();
 
             var salario = nomina.ObtenerSalarioEmpleado(idEmpleado);
             var totalBeneficios = beneficio.ObtenerrBeneficiosEmpleado(idEmpleado).Sum(c => c.Valor);

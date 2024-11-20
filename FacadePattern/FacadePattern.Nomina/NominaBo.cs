@@ -7,7 +7,7 @@ using FacadePattern.Dominio;
 
 namespace FacadePattern.Nomina
 {
-    public class Nomina
+    public class NominaBo
     {
         public double ObtenerSalarioEmpleado(string idEmpleado)
         {
