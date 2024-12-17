@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Factory", "Pattern.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Memento", "Pattern.Memento\Pattern.Memento.csproj", "{9B636D0D-1DC9-4D10-BB02-76F7B2CDC1E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Flyweitght", "Pattern.Flyweitght\Pattern.Flyweitght.csproj", "{50AD97B3-E9B7-4F10-9F32-416D7D98F653}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{9B636D0D-1DC9-4D10-BB02-76F7B2CDC1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B636D0D-1DC9-4D10-BB02-76F7B2CDC1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B636D0D-1DC9-4D10-BB02-76F7B2CDC1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AD97B3-E9B7-4F10-9F32-416D7D98F653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AD97B3-E9B7-4F10-9F32-416D7D98F653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AD97B3-E9B7-4F10-9F32-416D7D98F653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AD97B3-E9B7-4F10-9F32-416D7D98F653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
